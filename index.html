@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khushi Yadav | MERN Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="my pic.jpg" alt="Khushi Yadav" class="profile-pic" />
+      <h1>Khushi Yadav</h1>
+      <p id="typing-text"></p>
+    </header>
+
+    <section id="about" class="hidden">
+      <h2>About Me</h2>
+      <p>I am a passionate student currently learning MERN stack development. I love building modern, responsive websites and continuously improving my coding skills.</p>
+    </section>
+
+    <section id="projects" class="hidden">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Netflix Clone</h3>
+        <p>A responsive Netflix-style landing page built with HTML, CSS, and JavaScript.</p>
+        <a href="https://khushiyadav05.github.io/Netflix-clone/" target="_blank" rel="noopener noreferrer">Live Demo</a> | 
+        <a href="https://github.com/Khushiyadav05/Netflix-clone.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+      <div class="project">
+        <h3>Yummy Food Website</h3>
+        <p>A delicious food ordering website featuring modern design and smooth UI.</p>
+        <a href=" https://khushiyadav05.github.io/yummy-food/" target="_blank" rel="noopener noreferrer">Live Demo</a> | 
+        <a href="https://github.com/Khushiyadav05/yummy-food.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+      <div class="project">
+        <h3>Streetwear Site</h3>
+        <p>An e-commerce prototype for streetwear fashion with attractive layouts.</p>
+        <a href="https://khushiyadav05.github.io/F1-Streetwear/" target="_blank" rel="noopener noreferrer">Live Demo</a> | 
+        <a href="https://github.com/Khushiyadav05/F1-Streetwear.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      </div>
+    </section>
+
+    <section id="skills" class="hidden">
+      <h2>Skills</h2>
+      <p>HTML, CSS, JavaScript, React, Git, Node.js, MongoDB</p>
+    </section>
+
+    <section id="contact" class="hidden">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <a href="KhushiYadav_Resume.pdf" download class="btn" id="resume-btn">Download Resume</a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://github.com/KhushiYadav05" target="_blank" aria-label="GitHub" title="GitHub">
+      <!-- GitHub SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M12 0C5.372 0 0 5.372 0 12c0 5.303 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.418-1.305.76-1.605-2.665-.304-5.466-1.332-5.466-5.93 0-1.31.467-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 013.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.922.435.375.825 1.11.825 2.24v3.32c0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.628-5.373-12-12-12z"/>
+      </svg>
+    </a>
+    <a href="https://linkedin.com/in/KhushiYadav05" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+      <!-- LinkedIn SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M22.225 0H1.771C.792 0 0 .774 0 1.728v20.543C0 23.226.792 24 1.77 24h20.451c.978 0 1.779-.774 1.779-1.729V1.728C24 .774 23.203 0 22.225 0zm-13.64 20.452H5.327V9.048h3.258v11.404zm-1.63-13.04a1.892 1.892 0 110-3.784 1.892 1.892 0 010 3.784zm13.368 13.04h-3.257v-5.64c0-1.347-.028-3.08-1.878-3.08-1.88 0-2.17 1.468-2.17 2.985v5.736h-3.26V9.048h3.13v1.56h.044c.436-.826 1.5-1.697 3.086-1.697 3.3 0 3.91 2.172 3.91 4.994v6.497z"/>
+      </svg>
+    </a>
+  </div>
+
+  <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">🌗</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
